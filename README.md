@@ -160,7 +160,7 @@ Project Link: [https://github.com/KaanIpek/Kafka-producer-consumer](https://gith
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
