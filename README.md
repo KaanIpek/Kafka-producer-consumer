@@ -63,8 +63,7 @@
 
 ### Built With
 
-* Apache
-* Kafka
+* Apache Kafka
 * JAVA
 
 <p align="right">(<a href="#top">back to top</a>)</p>
