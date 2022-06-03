@@ -108,7 +108,7 @@ curl -X POST 'http://localhost:8080/message' \
     "description":"test description"
 }'
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
