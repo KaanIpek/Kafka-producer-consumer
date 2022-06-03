@@ -1,5 +1,5 @@
 Apache Kafka
-Copyright 2022 The Apache Software Foundation.
+Copyright 2012 The Apache Software Foundation.
 
 This product includes software developed at
-The Apache Software Foundation (https://www.apache.org/).
+The Apache Software Foundation (http://www.apache.org/).
