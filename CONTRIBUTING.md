@@ -1,15 +1,9 @@
-# Contributing to Auth0 projects
+# Contributing to Kafka-producer-consumer projects
 
-A big welcome and thank you for considering contributing to Auth0 open source projects! It’s people like you that make it a reality for users in our community.
+A big welcome and thank you for considering contributing to Kafka-producer-consumer open source projects! It’s people like you that make it a reality for users in our community.
 
 Reading and following these guidelines will help us make the contribution process easy and effective for everyone involved. It also communicates that you agree to respect the time of the developers managing and developing these open source projects. In return, we will reciprocate that respect by addressing your issue, assessing changes, and helping you finalize your pull requests.
 
-## Quicklinks
-
-* [Code of Conduct](#code-of-conduct)
-* [Getting Started](#getting-started)
-
-    * [Pull Requests](#pull-requests)
 
 ## Code of Conduct
 
@@ -18,7 +12,47 @@ We take our open source community seriously and hold ourselves and other contrib
 ## Getting Started
 
 Contributions are made to this repo via Issues and Pull Requests (PRs). A few general guidelines that cover both:
+### Issues
 
+#### Create a new issue
+
+If you spot a problem with the docs, [search if an issue already exists](https://github.com/KaanIpek/Kafka-producer-consumer/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/KaanIpek/Kafka-producer-consumer/issues/new). 
+
+#### Solve an issue
+
+Scan through our [existing issues](https://github.com/KaanIpek/Kafka-producer-consumer/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/contributing/how-to-use-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+
+### Make Changes
+
+#### Make changes in the UI
+
+Click **Make a contribution** at the bottom of any docs page to make small changes such as a typo, sentence fix, or a broken link. This takes you to the `.md` file where you can make your changes and [create a pull request](#pull-request) for a review. 
+
+ <img src="./assets/images/contribution_cta.png" width="300" height="150" /> 
+
+#### Make changes in a codespace
+
+For more information about using a codespace for working on GitHub documentation, see "[Working in a codespace](https://github.com/github/docs/blob/main/contributing/codespace.md)."
+
+#### Make changes locally
+
+1. [Install Git LFS](https://docs.github.com/en/github/managing-large-files/versioning-large-files/installing-git-large-file-storage).
+
+2. Fork the repository.
+- Using GitHub Desktop:
+  - [Getting started with GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/getting-started-with-github-desktop) will guide you through setting up Desktop.
+  - Once Desktop is set up, you can use it to [fork the repo](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop)!
+
+- Using the command line:
+  - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
+
+3. Install or update to **Node.js v16**. For more information, see [the development guide](contributing/development.md).
+
+4. Create a working branch and start with your changes!
+
+### Commit your update
+
+Once your changes are ready, don't forget to [self-review](/contributing/self-review.md) to speed up the review process:zap:.
 ### Pull Requests
 
 For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an Issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.
