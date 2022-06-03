@@ -1,17 +1,9 @@
-
 <div id="top"></div>
 <!--
 
 <!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -52,7 +44,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+This project includes Kafka Producer REST API, Kafka Consumer and docker compose file. API and consumer written in Java Spring Boot. Anyone can make a request to API using JSON.
 
 ![image](https://user-images.githubusercontent.com/72802777/171815449-40469457-0327-45b3-b24b-dde58c152500.png)
 
@@ -64,7 +56,8 @@
 ### Built With
 
 * Apache Kafka
-* JAVA
+* Java
+* Spring Boot
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -73,19 +66,27 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Download: Docker Desktop,gradle,postman
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
+In main
+   ```sh
+   gradle build
+   ```
+In producer
+   ```sh
+   docker build -t kaanipek/producer:1.0 .
+   ```
+In consumer
+   ```sh
+   docker build -t kaanipek/consumer:1.0 .
+   ```
 ### Installation
 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/KaanIpek/Kafka-producer-consumer.git
    ```
 2. Composing
    ```sh
@@ -101,12 +102,14 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Send this data to check if its working by using postman
+```
 curl -X POST 'http://localhost:8080/message' \
 -H 'Content-Type: application/json' \
 --data '{
     "title":"test title",
     "description":"test description"
 }'
+```
 
 
 
@@ -179,4 +182,3 @@ Project Link: [https://github.com/KaanIpek/Kafka-producer-consumer](https://gith
 [license-url]: https://github.com/KaanIpek/Kafka-producer-consumer/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kaan-ipek-a24729210/
-
